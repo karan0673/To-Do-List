@@ -1,0 +1,135 @@
+Body{
+    background-color:#F5F5DC;
+}
+
+#Header {
+    display:flex;                  
+    justify-content: space-between;
+    align-items: center;  
+    padding:10px
+}
+
+#Theme{
+    display:flex;                  
+    justify-content: space-between;
+    gap:20px;
+    padding:20px;
+}
+
+#Light-theme{
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    background-color:#F5F5DC;
+    border:2px solid black;
+    cursor:pointer;
+    color:#000000;
+}
+
+.Light-Theme{
+    background-color:#F5F5DC;
+    color:#000000;
+}
+
+.Dark-Theme{
+    background-color:#000000;
+    color:#ffffff;
+}
+
+#Light-theme:hover{
+    box-shadow: white 0 0 8px;
+    cursor: pointer;
+}
+
+#Dark-theme:hover{
+    box-shadow: black 0 0 8px;
+    cursor: pointer;
+}
+
+#Dark-theme{
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    background-color:black;
+    border:2px solid white;
+    cursor:pointer;
+}
+
+#Heading-1{
+    //color:white;
+    font-family:cursive;
+}
+
+#Text-Area{
+    padding:40px;
+}
+
+#Heading-2{
+    //color:white;
+    font-family:cursive;
+    font-size:xx-large;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+}
+
+#Text-Field{
+    width:400px;
+    height:30px;
+    border-radius:30px;
+    font-family:cursive;
+    color:black;
+    border:3px solid black;
+    cursor:text;
+    padding-left: 10px;
+}
+
+#Text-Field::placeholder{
+    color:#302A29;
+    font-family:cursive;
+    padding:.5px;
+}
+
+#Search{
+    width:80px;
+    height:40px;
+    border-radius:50px;
+    background-color:black;
+    color:white;
+    font-weight:bold;
+     border:2px solid white;
+}
+
+#Search:hover{
+    transform: scale(1);
+    background-color: #2F4F4F; 
+    cursor:pointer;
+}
+
+#List-of-task{
+    font-family:cursive;
+    font-size:18px;
+    font-weight:bold;
+    text-align:center;
+    list-style-position: inside;
+}
+
+#cross_icon{
+    display:none;
+}
+
+.delete_btn{
+    border-radius:10px;
+    width:28px;
+    height:25px;
+    margin:8px;
+    background-color:#FF0000;
+    font-weight:bold;
+}
